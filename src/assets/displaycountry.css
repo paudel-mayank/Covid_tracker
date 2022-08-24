@@ -1,0 +1,28 @@
+.countriesData {
+  padding-top: 60px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.searchField {
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 10px;
+}
+.search {
+  padding: 8px;
+  margin-left: 10px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  background: transparent;
+  border-radius: 10px;
+  border-color: grey;
+  transition: background-color 1s ease-in;
+}
+.search:hover {
+  background-color: blue;
+  color: white;
+}
+.data_container {
+  display: flex;
+}

@@ -1,0 +1,45 @@
+.countryCase_details {
+  display: flex;
+  align-items: center;
+  padding: 10px 0rem;
+  text-align: center;
+}
+
+.detail_title {
+  padding-bottom: 0.5rem;
+}
+
+.detail p {
+  padding: 0.2rem 0rem;
+}
+.detail {
+  margin: 0px 10px;
+}
+.countryCard {
+  padding: 10px;
+  margin: 20px 10px;
+  text-align: center;
+  background-color: #cccc;
+  display: flex;
+  flex-flow: column;
+  margin-top: 20px;
+}
+.countryCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.countryCard img {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  object-position: center;
+}
+.countryName {
+  color: rgb(38, 55, 49);
+}
+@media only screen and(max-width:880px) {
+  .countryCard {
+    display: flex;
+    justify-content: center;
+  }
+}

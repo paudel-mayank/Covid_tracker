@@ -1,0 +1,40 @@
+.worldData {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.Cases {
+  background-color: rgba(19, 3, 3, 0.575);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+}
+.case_title {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+.total_cases {
+  color: white;
+  padding-bottom: 5px;
+}
+.today_cases {
+  padding-bottom: 5px;
+}
+.todayTotal {
+  font-size: 24px;
+}
+.nCases {
+  font-size: 20px;
+}
+@media only screen and (max-width: 880px) {
+  .Cases {
+    width: 70%;
+    margin-top: 20px;
+  }
+  .worldData {
+    flex-direction: column;
+  }
+}

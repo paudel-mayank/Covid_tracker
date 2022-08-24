@@ -1,0 +1,12 @@
+.countries_data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.countries {
+  display: flex;
+  flex-flow: row;
+}

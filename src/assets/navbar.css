@@ -1,0 +1,17 @@
+.navbar {
+  padding: 10px;
+  color: #063b4e;
+  background-color: #f7f7f7;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  margin-right: 2rem;
+}
+.title {
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
